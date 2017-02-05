@@ -1,0 +1,25 @@
+.modal-content {
+    transform: translate(0, 0);
+    margin: 30px auto;
+    position: relative;
+    border: none;
+    border-radius: 6px;
+    padding: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    outline: 0;
+    width: 600px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
